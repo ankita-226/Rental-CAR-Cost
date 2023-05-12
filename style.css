@@ -1,0 +1,46 @@
+body{
+    width:100%;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+}
+h1{
+    color: rgb(27, 220, 27);
+    font-size:40px;
+    font-weight: 600;
+}
+select{
+    padding:10px 30px;
+    margin:30px;
+    font-size: 20px;
+    color: rgb(9, 106, 9);
+    font-weight: 700;
+}
+input{
+    padding:10px 70px;
+    margin:13px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+}
+button{
+    padding:10px 20px;
+    margin:20px;
+    font-size: 17px;
+    cursor:pointer;
+    border-radius: 5px;
+    border:1px solid green;
+    background-color: rgb(58, 203, 58);
+    color:white;
+    font-weight: 700;
+}
+button:hover{
+    background-color: rgb(103, 239, 103);
+}
+p{
+    color:rgb(15, 206, 15);
+    font-size: 27px;
+}
